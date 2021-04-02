@@ -1,35 +1,50 @@
-## Portfolio
-
----
-
-### Category Name 1 
-
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+## Experience
 
 ---
 
 
+[GirlScript Summer of Code]
+## GirlScript Summer of Code Participant
+### February 2021 - Present (3 months)
+### ->Working with an open-source organization on a three-month programming
+project.
+### -> Aiming to enhance my software development skills.
+
+---
+[ForDailyWagers](/pdf/fordaily.pdf)
+## Web Development Intern
+### September 2020 - October 2020 (2 months)
+### -> Contributed to converting UI/UX design of the Official Website of the company into a Fully Responsive Website, through design discussions, code reviews, and commits.
+### -> Identified steps to increase the coding efficiency
+### -> implemented the website in HTML CSS and JS
+
+#### Things I learned:
+- Working in an agile team
+- Pair Programming with other Developers
+- Maintaining the codebase on Github
+
+---
+[Ramrao Adik Institute of Technology](/pdf/rait.pdf)
+## Research And Development Intern
+### June 2020 - July 2020 (2 months)
+### -> Participated in Summer Internship Program focused on learning, implementing, and developing innovative software solutions.
+#### Events I was part of:
+- Competitive Programming
+- Training sessions on topics like software recruitments engineering, core web
+development.
+
+---
+
+### Projects
+
+- [Pet Adoption Website Using ReactJS]
+- [Restarant Wesite Using ReactJS](http://example.com/)
+- [Content Management System Using PHP and HTML](http://example.com/)
+- [Stock Management System Using Django](http://example.com/)
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+
+
+
+
