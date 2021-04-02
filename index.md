@@ -6,8 +6,7 @@
 [GirlScript Summer of Code]
 ## GirlScript Summer of Code Participant
 ### February 2021 - Present (3 months)
-### ->Working with an open-source organization on a three-month programming
-project.
+### ->Working with an open-source organization on a three-month programming project.
 ### -> Aiming to enhance my software development skills.
 
 ---
