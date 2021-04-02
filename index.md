@@ -36,7 +36,7 @@ development.
 
 ### Projects
 
--<img src="images/pet.png" /> [Pet Adoption Website Using ReactJS](images/pet.png)
+- [Pet Adoption Website Using ReactJS](images/pet.png)
 - [Restarant Wesite Using ReactJS](images/rest.png)
 - [Content Management System Using PHP and HTML](images/bank.png)
 - [Stock Management System Using Django](images/stock.png)
