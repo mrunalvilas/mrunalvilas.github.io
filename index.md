@@ -38,9 +38,9 @@ development.
 ### Projects
 
 - [Pet Adoption Website Using ReactJS]
-- [Restarant Wesite Using ReactJS](http://example.com/)
-- [Content Management System Using PHP and HTML](http://example.com/)
-- [Stock Management System Using Django](http://example.com/)
+- [Restarant Wesite Using ReactJS]
+- [Content Management System Using PHP and HTML]
+- [Stock Management System Using Django]
 
 
 ---
