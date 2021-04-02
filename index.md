@@ -3,7 +3,7 @@
 ---
 
 
-[GirlScript Summer of Code]
+[GirlScript Summer of Code](pdf/gssoc.pdf)
 ## GirlScript Summer of Code Participant
 ### February 2021 - Present (3 months)
 ### ->Working with an open-source organization on a three-month programming project.
@@ -36,10 +36,10 @@ development.
 
 ### Projects
 
-- [Pet Adoption Website Using ReactJS]
-- [Restarant Wesite Using ReactJS]
-- [Content Management System Using PHP and HTML]
-- [Stock Management System Using Django]
+- [Pet Adoption Website Using ReactJS](images/pet.png)
+- [Restarant Wesite Using ReactJS](images/rest.png)
+- [Content Management System Using PHP and HTML](images/bank.png)
+- [Stock Management System Using Django](images/stock.png)
 
 
 ---
