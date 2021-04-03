@@ -1,8 +1,21 @@
+## Summary
+
+#### I'm an Under graduation Student from Mumbai University,
+
+#### My background is in computer science. I am pursuing my undergrad at Mumbai University and spent a few summers learning web development and working as a web developer at startups.
+
+#### I am a web developer with robust problem-solving skills and proven experience in creating and designing web Applications in a test-driven environment. So far I have JavaScript, HTML, CSS, Python, Bootstrap, React.JS, and Git/Github under my belt.
+
+#### I wanted to get some exposure to Open-source so I joined GSSoC as a Participant. It was a great experience. I learned a ton about application design and I got to really understand the core of ReactJS.
+
+#### Outside of work, I've been enthusiastically grabbing onto any other programming languages, frameworks, or principles I can integrate into web coding.
+
+#### I continue to build skills in Cloud Computing, and open-source.
+
+---
 ## Experience
 
 ---
-
-
 [GirlScript Summer of Code](pdf/gssoc.pdf)
 ## GirlScript Summer of Code Participant
 ### February 2021 - Present (3 months)
