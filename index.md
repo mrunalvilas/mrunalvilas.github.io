@@ -47,8 +47,9 @@ development.
 
 ---
 
-### Projects
+## Projects
 
+---
 - [Pet Adoption Website Using ReactJS](images/pet.png)
 - [Restarant Wesite Using ReactJS](images/rest.png)
 - [Content Management System Using PHP and HTML](images/bank.png)
