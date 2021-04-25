@@ -9,6 +9,5 @@ description: > # your text below (remove <br> elements if you don't need line br
 
   
   <br><br>
-  |<a href="https://www.linkedin.com/in/mrunal-padalkar-b64a3b19b/" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/kF9HMpz.png" width=40px height=40px title="source: imgur.com" /></a>   | <a href="mailto: mrunalvilas@gmail.com"><img src="https://1000logos.net/wp-content/uploads/2018/05/Gmail-logo.png" width=40px height=40px title="source: imgur.com" /></a> | <a href="https://twitter.com/MrunalPadalkar" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/G7yTDHP.png" width=40px height=40px title="source: imgur.com" /></a> | <a href="https://mrunalvilas.github.io/" target="_blank" rel="noopener noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT37PG376EZ6z05603YhR-JW6W6X0y8lLsuyg&usqp=CAU" width=40px height=40px /></a>
-| ------------- | ------------- | ------------- |
+  
 theme: jekyll-theme-minimal
