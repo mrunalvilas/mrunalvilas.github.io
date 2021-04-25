@@ -53,7 +53,8 @@ development.
 - [Pet Adoption Website Using ReactJS](images/pet.png)
 - [Restarant Wesite Using ReactJS](images/rest.png)
 - [Content Management System Using PHP and HTML](images/bank.png)
-- [Stock Management System Using Django](images/stock.png)
+- [Stock Management System Using Django](images/stock.jpg)
+- [Pie Shop Website Using REST API](images/pieshop.png)
 
 
 ---
