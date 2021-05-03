@@ -2,10 +2,7 @@
 title: Mrunal Padalkar # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  GSSoC'21 • Web Developer • Student •  University Of Mumbai 
-  <br><br>
-  Currently, I m enrolled in B.Tech (Computer Engineering) Program at the University of Mumbai.
-  I am a web developer with robust problem-solving skills and proven experience in creating and designing web Applications in a test-driven environment.
+  
   
 
   
@@ -17,13 +14,8 @@ theme: jekyll-theme-modernist
 
 <style type="text/css">
 
-title {
+a {
   text-align: center;
 }
-logo { /* Header 4 - and the author and data headers use this too  */
-  align: center;
-}
-description { /* Header 4 - and the author and data headers use this too  */
-  text-align: center;
-}
+
 </style>
