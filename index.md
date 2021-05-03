@@ -5,7 +5,7 @@ Skillful creating servers and databases for functionality and designing and deve
 
 ### Work History
 
-**Cyber Security Virtual Internship | 2021-April - 2021-May**
+**Cyber Security Virtual Internship ▪ 2021-April - 2021-May**
 
  *AICTE*                                                                                                  
 
@@ -13,7 +13,7 @@ Skillful creating servers and databases for functionality and designing and deve
 - Acquired and maintained advanced knowledge of networking, including Configuring routers and Troubleshooting connectivity in a small network .
 - Attended corporate learning and development programs offered by cisco Netacad to gain competencies and professional skills.
 
-**Participant | 2021-March - 2021-May**
+**Participant ▪ 2021-March - 2021-May**
 
 *GirlScript Summer of Code*                                                                 
 
@@ -21,7 +21,7 @@ Skillful creating servers and databases for functionality and designing and deve
 - Handled Level-2 issues and collaborated with Project Mentors to resolve those issues by creating pull-requests in given time.
 - Increased efficiency and team productivity by promoting operational best practices.
 
-**Web Development Intern | 2020-September - 2020-October**
+**Web Development Intern ▪ 2020-September - 2020-October**
 
 *For Daily Wagers*                                                                       
 
@@ -33,7 +33,7 @@ Skillful creating servers and databases for functionality and designing and deve
 - Adhered to best practices for software development methodology and web security.
 - Studied basic project requirements with assigned technical lead and planned development strategies.
 
-**Research and Development Intern | 2020-June - 2020-July**
+**Research and Development Intern ▪ 2020-June - 2020-July**
 
 *Ramrao Adik Institute of Technology*                                                 
 
@@ -55,10 +55,10 @@ Skillful creating servers and databases for functionality and designing and deve
 
 **Bachelor's Of Engineering**
 
-- June 2018-Current | Ramrao Adik Institute Of Technology | Mumbai | Computer Engineering
+- June 2018-Current ▪ Ramrao Adik Institute Of Technology ▪ Mumbai ▪ Computer Engineering
 - CGPI: 9.55
 
 **Higher Secondary Certificate**
 
-- June 2016-May 2018 | St. Xavier's Junior College | Mumbai | Stream-Science
+- June 2016-May 2018 ▪ St. Xavier's Junior College ▪ Mumbai ▪ Stream-Science
 - Percentage: 90.62
