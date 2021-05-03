@@ -1,64 +1,65 @@
-## Summary
+# About Me
 
-#### I'm an Under graduation Student from Mumbai University,
+Goal-oriented Web Developer brings strong commitment to collaboration and solutions-oriented problem-solving. Use various web design packages to develop custom-crafted, customer-focused websites and designs. Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS as well as scripting languages like JavaScript. Eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of Front End Development and REST and training in Database Management.
 
-#### My background is in computer science. I am pursuing my undergrad at Mumbai University and spent a few summers learning web development and working as a web developer at startups.
+Skillful creating servers and databases for functionality and designing and developing API's. Motivated to learn, grow and excel.
 
-#### I am a web developer with robust problem-solving skills and proven experience in creating and designing web Applications in a test-driven environment. So far I have JavaScript, HTML, CSS, Python, Bootstrap, React.JS, and Git/Github under my belt.
+### Work History
 
-#### I wanted to get some exposure to Open-source so I joined GSSoC as a Participant. It was a great experience. I learned a ton about application design and I got to really understand the core of ReactJS.
+**Cyber Security Virtual Internship | 2021-April - 2021-May**
 
-#### Outside of work, I've been enthusiastically grabbing onto any other programming languages, frameworks, or principles I can integrate into web coding.
+ *AICTE*                                                                                                  
 
-#### I continue to build skills in Cloud Computing, and open-source.
+- Used coordination and planning skills to achieve results according to schedule.
+- Acquired and maintained advanced knowledge of networking, including Configuring routers and Troubleshooting connectivity in a small network .
+- Attended corporate learning and development programs offered by cisco Netacad to gain competencies and professional skills.
 
----
-## Experience
+**Participant | 2021-March - 2021-May**
 
----
-[GirlScript Summer of Code](pdf/gssoc.pdf)
-## GirlScript Summer of Code Participant
-### February 2021 - Present (3 months)
-### ->Working with an open-source organization on a three-month programming project.
-### -> Aiming to enhance my software development skills.
+*GirlScript Summer of Code*                                                                 
 
----
-[ForDailyWagers](/pdf/fordaily.pdf)
-## Web Development Intern
-### September 2020 - October 2020 (2 months)
-### -> Contributed to converting UI/UX design of the Official Website of the company into a Fully Responsive Website, through design discussions, code reviews, and commits.
-### -> Identified steps to increase the coding efficiency
-### -> implemented the website in HTML CSS and JS
+- Provided accurate solution to issues and created Pull-requests which eventually got merged for ongoing projects.
+- Handled Level-2 issues and collaborated with Project Mentors to resolve those issues by creating pull-requests in given time.
+- Increased efficiency and team productivity by promoting operational best practices.
 
-#### Things I learned:
-- Working in an agile team
-- Pair Programming with other Developers
-- Maintaining the codebase on Github
+**Web Development Intern | 2020-September - 2020-October**
 
----
-[Ramrao Adik Institute of Technology](/pdf/rait.pdf)
-## Research And Development Intern
-### June 2020 - July 2020 (2 months)
-### -> Participated in Summer Internship Program focused on learning, implementing, and developing innovative software solutions.
-#### Events I was part of:
-- Competitive Programming
-- Training sessions on topics like software recruitments engineering, core web
-development.
+*For Daily Wagers*                                                                       
 
----
+- Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.
+- Troubleshot and debugged code ensuring compatibility with devices, browsers, and operating systems.
+- Studied user requirements and implemented requirements into solutions.
+- Developed code collaboratively with Agile squads to produce Official Website of the Company.
+- Maintained quality assurance through code testing and cross-browser testing.
+- Adhered to best practices for software development methodology and web security.
+- Studied basic project requirements with assigned technical lead and planned development strategies.
 
-## Projects
+**Research and Development Intern | 2020-June - 2020-July**
 
----
+*Ramrao Adik Institute of Technology*                                                 
+
+- Helped team meet regulatory requirements by coordinating documentation and filings.
+- Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.
+- Utilized scripting languages, content creation tools, management tools, and digital media to design web sites.
+- Supported web applications and web sites through database development.
+- Studied user requirements and implemented requirements into solutions.
+
+### Projects
+
 - [Pet Adoption Website Using ReactJS](images/pet.png)
 - [Restarant Wesite Using ReactJS](images/rest.png)
 - [Content Management System Using PHP and HTML](images/bank.png)
 - [Stock Management System Using Django](images/stock.jpg)
 - [Pie Shop Website Using REST API](https://github.com/mrunalvilas/Bethany-sPieShop)
 
+### Education
 
----
+**Bachelor's Of Engineering**
 
+- June 2018-Current | Ramrao Adik Institute Of Technology | Mumbai | Computer Engineering
+- CGPI: 9.55
 
+**Higher Secondary Certificate**
 
-
+- June 2016-May 2018 | St. Xavier's Junior College | Mumbai | Stream-Science
+- Percentage: 90.62
