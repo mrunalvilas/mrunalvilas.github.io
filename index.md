@@ -1,9 +1,11 @@
 #### GSSoC'21 • Web Developer • Student •  University Of Mumbai 
   ---
   *Currently, I m enrolled in B.Tech (Computer Engineering) Program at the University of Mumbai.*
-  *I am a web developer with robust problem-solving skills and proven experience in creating and designing web Applications in a test-driven environment.*
+  
   
   [View My LinkedIn Profile](https://www.linkedin.com/in/mrunalpadalkar)
+  
+  [View My GitHub Profile](https://github.com/mrunalvilas)
   
   ---
 
