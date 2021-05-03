@@ -1,3 +1,11 @@
+#### GSSoC'21 • Web Developer • Student •  University Of Mumbai 
+  ---
+  *Currently, I m enrolled in B.Tech (Computer Engineering) Program at the University of Mumbai.*
+  *I am a web developer with robust problem-solving skills and proven experience in creating and designing web Applications in a test-driven environment.*
+  
+  [View My LinkedIn Profile](https://www.linkedin.com/in/mrunalpadalkar)
+  
+  ---
 
 > Goal-oriented Web Developer brings strong commitment to collaboration and solutions-oriented problem-solving.
 > Use various web design packages to develop custom-crafted, customer-focused websites and designs.
