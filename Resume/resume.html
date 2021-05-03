@@ -1,0 +1,632 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Mrunal Padalkar</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="7265848e-2936-4edf-a2af-43117c80048d" class="page mono"><header><h1 class="page-title">Mrunal Padalkar</h1></header><div class="page-body"><h2 id="8e35b01e-7336-4c54-a3ae-7f72bdb1ff0d" class="">Web Developer</h2><p id="d99d9a27-a6aa-4693-93e6-f8344a1f43f4" class="">Email: mrunalvilas@gmail.com</p><p id="f6150d63-52af-4561-8506-d07e19b3faa0" class="">LinkedIn: <a href="https://www.linkedin.com/in/mrunalpadalkar">https://www.linkedin.com/in/mrunalpadalkar</a></p><p id="61739db2-ebfb-4ea5-bcb7-47186284713a" class="">
+</p><p id="7529dbd5-5fd1-45a0-bd2d-9e0113ab4cb8" class="">Goal-oriented Web Developer brings strong commitment to collaboration and solutions-oriented problem-solving. Use various web design packages to develop custom-crafted, customer-focused websites and designs. Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS as well as scripting languages like JavaScript. Eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of Front End Development and REST and training in Database Management.</p><p id="5d338dc1-fbf0-4d4e-84ce-cb022053275f" class="">
+</p><p id="d159abe6-e485-46e7-81b9-ebd6aa757d2c" class="">Skillful creating servers and databases for functionality and designing and developing API&#x27;s. Motivated to learn, grow and excel.</p><h3 id="9554f6d4-1b2b-44e1-bbea-dae712c41fa2" class="">Work History</h3><p id="cecc2eaa-f842-4c2c-b6b9-c5b34c086cbc" class=""><strong>Cyber Security Virtual Internship | 2021-April - 2021-May</strong></p><p id="a84809b1-a344-4bb7-b3e3-8d522d8308a0" class=""> <em>AICTE       </em><mark class="highlight-yellow"><strong>                                                                                           </strong></mark></p><ul id="33f264c1-f6f6-4b23-9ec3-06ea9de6d770" class="bulleted-list"><li>Used coordination and planning skills to achieve results according to schedule.</li></ul><ul id="8d71eb4c-83bc-4d86-afae-8f1ff090d7a0" class="bulleted-list"><li>Acquired and maintained advanced knowledge of networking, including Configuring routers and Troubleshooting connectivity in a small network .</li></ul><ul id="f5f95fb8-1870-4cc6-8fe4-1dff0ebd3e8a" class="bulleted-list"><li>Attended corporate learning and development programs offered by cisco Netacad to gain competencies and professional skills.</li></ul><p id="db71c9f3-38a7-47b9-8698-52b06ffb0677" class=""><strong>Participant | 2021-March - 2021-May</strong></p><p id="1681c9d5-97cf-42e4-8c88-64710a422f0a" class=""><em>GirlScript Summer of Code   </em><mark class="highlight-yellow"><strong>                                                              </strong></mark></p><ul id="2a73e486-6b8e-4edb-b2c2-65fb85838328" class="bulleted-list"><li>Provided accurate solution to issues and created Pull-requests which eventually got merged for ongoing projects.</li></ul><ul id="d4cc700b-1a82-4e10-ae57-8be0f2068bd4" class="bulleted-list"><li>Handled Level-2 issues and collaborated with Project Mentors to resolve those issues by creating pull-requests in given time.</li></ul><ul id="76862415-690a-48a2-ade1-b80fcec484ed" class="bulleted-list"><li>Increased efficiency and team productivity by promoting operational best practices.</li></ul><p id="f163a558-5782-4b3b-ab7c-328d0a808ab3" class=""><strong>Web Development Intern | 2020-September - 2020-October</strong></p><p id="d4a0810c-132d-484e-8989-b3eb927be8d6" class=""><em>For Daily Wagers  </em><mark class="highlight-yellow"><strong>                                                                     </strong></mark></p><ul id="48d23fef-f79d-403e-817d-962bdd0172c5" class="bulleted-list"><li>Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.</li></ul><ul id="688be438-b43f-449d-8f24-eefd84c7ee60" class="bulleted-list"><li>Troubleshot and debugged code ensuring compatibility with devices, browsers, and operating systems.</li></ul><ul id="bcdc1b36-0d03-456d-ab72-3120b0924569" class="bulleted-list"><li>Studied user requirements and implemented requirements into solutions.</li></ul><ul id="d18bc377-1a7a-43bb-b01f-0fd00c9a4ce3" class="bulleted-list"><li>Developed code collaboratively with Agile squads to produce Official Website of the Company.</li></ul><ul id="d933fe07-e283-4996-9f76-f0b9590797c3" class="bulleted-list"><li>Maintained quality assurance through code testing and cross-browser testing.</li></ul><ul id="8f09344d-ac26-4ce0-82e8-3c65b7310c87" class="bulleted-list"><li>Adhered to best practices for software development methodology and web security.</li></ul><ul id="1d094a9f-06e5-4097-a2c5-36e7a11ef84a" class="bulleted-list"><li>Studied basic project requirements with assigned technical lead and planned development strategies.</li></ul><p id="07fd5ec3-8572-4953-a9c3-9e09730f5b27" class=""><strong>Research and Development Intern | 2020-June - 2020-July</strong></p><p id="71299382-b0e3-4703-a3b8-f7fcd2a20df1" class=""><em>Ramrao Adik Institute of Technology</em><mark class="highlight-yellow"><strong>                                                 </strong></mark></p><ul id="881ed51b-d185-4fef-9f00-99114a40530e" class="bulleted-list"><li>Helped team meet regulatory requirements by coordinating documentation and filings.</li></ul><ul id="e0bea767-b407-4490-820d-421adb1caefc" class="bulleted-list"><li>Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.</li></ul><ul id="14ce00b8-7801-404b-af06-dc24dc26e042" class="bulleted-list"><li>Utilized scripting languages, content creation tools, management tools, and digital media to design web sites.</li></ul><ul id="33718709-fa87-49e7-8daf-60ed9e9a4ac4" class="bulleted-list"><li>Supported web applications and web sites through database development.</li></ul><ul id="321ac58d-5089-46ac-bc08-963c7e274e76" class="bulleted-list"><li>Studied user requirements and implemented requirements into solutions.</li></ul><h3 id="b7a55629-dbea-42c8-b772-514734acdb32" class="">Education</h3><p id="1f767efb-7c41-4afc-8c9b-ff5382076542" class=""><strong>Bachelor&#x27;s Of Engineering</strong><div class="indented"><ul id="c13da4ea-0314-4d25-82ef-da2491f24b27" class="bulleted-list"><li>June 2018-Current | Ramrao Adik Institute Of Technology | Mumbai | Computer Engineering </li></ul><ul id="dadad8d9-7596-4e3c-b8ac-05dff610a805" class="bulleted-list"><li>CGPI: 9.55</li></ul></div></p><p id="062a9dd0-f084-4ece-b7bf-ee0109c7967b" class=""><strong>Higher Secondary Certificate</strong><div class="indented"><ul id="d9b497be-4f85-4971-b42f-386a6feb7a2f" class="bulleted-list"><li> June 2016-May 2018 | St. Xavier&#x27;s Junior College | Mumbai | Stream-Science</li></ul><ul id="02f4eb9e-17c7-4a35-9fdc-e32404c71c93" class="bulleted-list"><li>Percentage: 90.62</li></ul><p id="deae7149-bad8-4c94-9c06-e36b22e067a2" class="">
+</p></div></p><p id="6d4e1a50-ff78-4606-a914-28ecada6c36b" class="">
+</p></div></article></body></html>
