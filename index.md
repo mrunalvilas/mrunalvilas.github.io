@@ -1,13 +1,14 @@
-
-```
+`
 Goal-oriented Web Developer brings strong commitment to collaboration and solutions-oriented problem-solving. 
 Use various web design packages to develop custom-crafted, customer-focused websites and designs.
-Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS as well as scripting languages like JavaScript. 
+Demonstrated talent for front and back-end web development to optimize online presence. 
+Seasoned expert in languages such as HTML, CSS as well as scripting languages like JavaScript. 
 Eager to contribute to team success through hard work, attention to detail and excellent organizational skills.
 Clear understanding of Front End Development and REST and training in Database Management.
 Skillful creating servers and databases for functionality and designing and developing API's. 
 Motivated to learn, grow and excel.
-```
+`
+
 ### Work History
 
 **Cyber Security Virtual Internship ▪ 2021-April - 2021-May**
