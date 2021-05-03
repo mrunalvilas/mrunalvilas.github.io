@@ -44,6 +44,14 @@ Skillful creating servers and databases for functionality and designing and deve
 - Supported web applications and web sites through database development.
 - Studied user requirements and implemented requirements into solutions.
 
+### Projects
+
+- [Pet Adoption Website Using ReactJS](images/pet.png)
+- [Restarant Wesite Using ReactJS](images/rest.png)
+- [Content Management System Using PHP and HTML](images/bank.png)
+- [Stock Management System Using Django](images/stock.jpg)
+- [Pie Shop Website Using REST API](https://github.com/mrunalvilas/Bethany-sPieShop)
+
 ### Education
 
 **Bachelor's Of Engineering**
