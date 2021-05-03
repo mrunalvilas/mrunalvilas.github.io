@@ -1,3 +1,4 @@
+---
 title: Mrunal Padalkar # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
@@ -12,3 +13,17 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/mrunalpadalkar">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-leap-day
+---
+
+<style type="text/css">
+
+title {
+  text-align: center;
+}
+logo { /* Header 4 - and the author and data headers use this too  */
+  align: center;
+}
+description { /* Header 4 - and the author and data headers use this too  */
+  text-align: center;
+}
+</style>
