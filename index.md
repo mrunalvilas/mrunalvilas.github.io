@@ -65,5 +65,5 @@
 - [Stock Management System Using Django](images/stock.jpg)
 - [Pie Shop Website Using REST API](https://github.com/mrunalvilas/Bethany-sPieShop)
 
-[📝](https://mrunalvilas.github.io/Resume/resume.html)
+<img src="images/images.jfif" width=150px height=150px /></a> | <a href="https://mrunalvilas.github.io/Resume/resume.html" target="_blank">
 
